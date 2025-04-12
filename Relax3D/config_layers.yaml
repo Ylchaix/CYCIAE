@@ -1,0 +1,120 @@
+options:
+  L:
+    exec_cmd:
+    - - '-12'
+      - '-12'
+      - '0'
+      - '.04'
+      - '.04'
+      - '.04'
+      - '600'
+      - '600'
+    - - '65'
+  S:
+    exec_cmd:
+    - - '0.0'
+      - '-3.0'
+      - '0'
+      - '.02'
+      - '.02'
+      - '.02'
+      - '200'
+      - '200'
+    - - '65'
+slices:
+  L1:
+    potential:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    zmax: 0.8
+    zmin: 0.0
+  L10:
+    potential:
+    - 0
+    - 0
+    - 0
+    - 0
+    zmax: 2.6
+    zmin: 1.8
+  L11:
+    potential:
+    - 0
+    - 0
+    - 0
+    - 0
+    zmax: 2.6
+    zmin: 1.8
+  L2:
+    potential:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    zmax: 1.0
+    zmin: 0.8
+  L2.5:
+    potential:
+    - 1
+    zmax: 1.3
+    zmin: 1.0
+  L2.6:
+    potential:
+    - 1
+    - 1
+    zmax: 1.5
+    zmin: 1.0
+  L3:
+    potential:
+    - 1
+    - 1
+    zmax: 1.9
+    zmin: 1.0
+  L4:
+    potential:
+    - 0
+    - 0
+    zmax: 1.7
+    zmin: 1.0
+  L5:
+    potential:
+    - 0
+    - 0
+    zmax: 1.8
+    zmin: 1.7
+  L6:
+    potential:
+    - 0
+    - 0
+    zmax: 2.6
+    zmin: 1.8
+  L7:
+    potential:
+    - 0
+    - 0
+    - 0
+    - 0
+    zmax: 1.8
+    zmin: 1.7
+  L8:
+    potential:
+    - 1
+    - 1
+    zmax: 2.6
+    zmin: 1.7
+  L9:
+    potential:
+    - 0
+    - 0
+    - 0
+    - 0
+    zmax: 2.6
+    zmin: 1.7

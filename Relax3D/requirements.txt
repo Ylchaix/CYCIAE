@@ -1,0 +1,5 @@
+pyautogui
+psutil
+pyqt5
+pywin32
+pyyaml
